@@ -1,0 +1,19 @@
+img{
+    animation: knife 6s infinite;
+}
+@keyframes knife {
+
+    0%{
+        transform: translateY(-500px) rotate(60deg);
+    }
+    50%{
+        transform: translateY(500px) rotate(180deg);
+    }
+    75%{
+        transform: translateX(100px) rotate(240deg);
+    }
+    100%{
+        transform: translateY(900px) rotate(360deg);
+        
+    }
+}

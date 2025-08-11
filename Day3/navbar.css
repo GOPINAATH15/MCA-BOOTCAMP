@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    background-color: burlywood;
+}
+.header ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: fantasy;
+    color: black;
+}
+.header{
+    box-shadow: 8px 8px 16px black;
+}
+a:hover{
+    color: darkgreen;
+    font-size: 15px;
+    text-shadow: 8px 8px 16px black;
+}
+table{
+    margin: 50px;
+}
+#studentData{
+    border: 40px rgb(111, 103, 103) ;
+    border-style: inset;    
+}
+#studentData th,#studentData td{
+    padding: 20px;
+    border: 1px solid black;
+}
+#studentData th:nth-child(odd):hover{
+    background-color: burlywood;
+    color: black;
+}
+#studentData tr:nth-child(odd):hover{
+    background-color: grey;
+    color: black;
+}
+#studentData tr:nth-child(even):hover{
+    background-color: bisque;
+    color: black;
+}
+footer{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.footer1{
+    box-shadow: 8px 8px 16px grey;
+    padding-top: 40px;
+    padding-left: 50px;
+    height: 45vh;
+    width: 25%;
+    background-color: burlywood;
+}
+.footer1 ul{
+    padding-top: 20px;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    color: black;
+    list-style-type: none;
+    font-size: small;
+}
+.footer1 ul li{
+    padding-top: 20px;
+    transition: 0.5s;
+}
+.footer{
+    display: flex;  
+    
+}
+.footer ul li:hover{
+    color: red;
+    font-size: 16px;
+}

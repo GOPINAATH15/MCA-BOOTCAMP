@@ -1,0 +1,33 @@
+/* body{
+    background-image: linear-gradient(to right,grey,white);
+} */
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cards{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px black;
+    transition: 0.5s;
+}
+.cards:hover{
+    box-shadow: 8px 8px 16px red;
+    /* height: 450px;
+    width: 300px; */
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+img{
+    height: 80%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: yellow;
+    padding: 15px;
+}
+.header ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 900px;
+}
+.header a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 7px;
+    color: black;
+}
+.header2 img{
+    width: 13%;
+    height: 80px;
+    padding-top: 2px;
+    padding-left: 90px;
+}
+.header2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header2 ul li{
+    padding-top: 30px;
+}
+.header2 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blogbody{
+    padding-left: 200px;
+}
+.blogbody img{
+    height: 300px;
+    width: 26%;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px black;
+}
+/* below tag is used for direct child */
+.about>p{
+    background-color: aqua;
+}
+/* below tag is used for grand child */
+.about p{
+    background-color: bisque;
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+.container {
+    /* background-color: white; */
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+}
+
+.container .nav1 {
+    width: 20%;
+}
+
+.container .nav1 img {
+    color: white;
+    padding-left: 30px;
+    padding-top: 8px;
+    height: 4vh;
+}
+
+.container .nav2 {
+    width: 60%;
+}
+
+.container .nav2 ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .nav3 {
+    width: 20%;
+}
+
+.container .nav3 ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+.container a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+i {
+    transition: 0.3s;
+}
+
+i:hover {
+    color: #EB0028;
+}
+
+.container a:hover {
+    color: #EB0028;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+    height: 80vh;
+    /* position: relative; */
+}
+.content img {
+    background: url(./assets/Nord5-NordCE5_KV0709_Desktop.jpg) no-repeat center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+}
+
+.content p {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    text-align: center;
+}
+.content .para1 button {
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    margin-left:22.5%;
+    margin-top: -180px;
+}
+.content .para2 button {
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    margin-left:-5%;
+    margin-top: 10px;
+}
+.content button a {
+    text-decoration: none;
+    color: white;
+}
+
+.content .para1 {
+    width: 50%;
+}
+
+.content .para2 {
+    width: 50%;
+}
+
+.content .para1 p {
+    padding: 25%;
+    font-size: 1.1em;
+}
+
+.content .para2 p {
+    padding: 25%;
+}
+/* cards */
+.container1 {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards {
+    /* border: 2px solid black; */
+    background-color: white ;
+    margin-top: 10px;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;
+    transition: 0.5s;
+}
+
+.cards img:hover {
+    /* box-shadow: 8px 8px 16px red; */
+    /* height: 450px;
+    width: 300px; */
+    transform: scale(1.09);
+    transition: 0.8s;
+}
+.cards:hover {
+    box-shadow: 0px 0px 30px rgb(222, 156, 156);
+    /* height: 450px;
+    width: 300px; */
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.cards img {
+    height: 75%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards p {
+    text-align: center;
+}
+.cards button{
+    padding: 10px;
+    margin-left: 85px;
+    background-color: #dab7b5;
+    color: black;
+    border-radius: 20px;
+    border-color: #dab7b5;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.cards button:hover{
+    background-color: white;
+    border: 2px solid #dab7b5;
+    color: #dab7b5;
+}
+
+.content2{
+    background: url(./assets/OnePlus\ Pad.jpg) no-repeat center/cover;
+    /* border: 2px solid black; */
+    height: 100vh;
+    /* margin: 10px; */
+}
+.content2 p{
+    font-size: x-large;
+    padding-top: 5%;
+    padding-left: 40%;
+}
+.content2 button{
+    margin-top: 10px;
+    margin-left: 45%;
+    padding: 9px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.content2 u{
+    margin-left: 10px;
+    color: black;
+    font-family:"Roboto", sans-serif;
+    font-size: small;
+}
+
+                                                                    /* footer */
+footer {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.footer1 {
+    box-shadow: 8px 8px 16px grey;
+    padding-top: 40px;
+    padding-left: 50px;
+    height: 45vh;
+    width: 25%;
+    background-color:rgb(255, 255, 255);
+}
+
+.footer1 ul {
+    padding-top: 20px;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    color: black;
+    list-style-type: none;
+    font-size: small;
+}
+
+.footer1 ul li {
+    padding-top: 20px;
+    transition: 0.5s;
+    color: rgb(123, 129, 129);
+}
+
+.footer {
+    display: flex;
+
+}
+
+.footer ul li:hover {
+    color: red;
+    font-size: 16px;
+}
