@@ -43,3 +43,51 @@ for(let j=0;j<arrobj.length;j++)
   console.log(arrobj[j].phno)
 }
 // console.log(arrobj[2].exp)
+
+// let arr=[10,23,56,32]
+// let search = 23;
+
+// // output=1
+
+// for(let i=0;i<arr.length;i++)
+// {
+//   // arr[i]===search ? console.log("the given number index is Founded as "+i): console.log("the given number index is not found");
+//   if(arr[i] == search)
+//   {
+//     console.log("The Given number of the index is "+ i)
+//   }
+// }
+
+// let arr = [10,20,30,45,60,70,80];
+// let add = 5;
+// let target = 50;
+
+// for(let i=0;i<arr.length;i++)
+// {
+//   if(arr[i]+add == target)
+//   {
+//     console.log("The given target number of the index is "+i)
+//   }
+// }
+
+// let arr = [10,23,32,32];
+// let search = 32;
+// for(let i = 0 ; i<arr.length;i++)
+// {
+//   if(arr[i] == search)
+//   {
+//     console.log("The Given number of the index is "+i);
+//   }
+// }
+
+
+let arr = [10,32,23,32,45,32,56,32];
+let search = 32;
+for(let i = 0 ; i<arr.length;i++)
+{
+  if(arr[i] == search)
+  {
+    a=i;
+  }
+}
+  console.log("The given number of the last index is "+a)
