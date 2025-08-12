@@ -86,28 +86,63 @@
 //   cobnsole.log("The given number is Zero")
 // }
 
-                                  // && OPERATOR
-let a=10,b=14,c=12;
-if(a>b && a>c)
+// let a=10,b=15,c=112;
+//                                   // && OPERATOR(AND)
+// if(a>b && a>c)
+// {
+//   console.log("A is Greater")
+// }
+// else if(b>c && b>a)
+// {
+//   console.log("B is Greater")
+// }
+// else{
+//   console.log("C is Greater")
+// }
+
+//                                 // || OPERATOR(OR)
+// if(a>b || a>c)
+// {
+//   console.log("A is Greater")
+// }
+// else if(b>c || b>a)
+// {
+//   console.log("B is Greater")
+// }
+// else{
+//   console.log("C is Greater")
+// }
+
+// let a=10,b=15,c=112;
+//                                       // TERNARY OPERATOR(?)
+// (a>b && a>c) ? console.log("A is greater"):
+// (b>c && b>c) ? console.log("B is Greater"):console.log("C is Greater");
+                    //  ---------------------------------- // LOOPING STATEMENT----------------------------
+// let i =0;
+                            // WHILE LOOP
+// while(i<5)
+// {
+//   console.log("The valus of i is: "+i)
+//   i++
+// }
+                            // DO WHILE LOOP
+// do
+// {
+//   console.log("the value of i is: "+i)
+//   i++
+// }while(i<5)
+                            // FOR LOOP
+// for(let i=0;i<5;i++)
+// {
+//   console.log("The valus of i is:"+i);
+// }
+
+for(var i=0;;)
 {
-  console.log("A is Greater")
+  if(i>5)
+  {
+    break;
+  }
+  i++;
 }
-else if(b>c && b>a)
-{
-  console.log("B is Greater")
-}
-else{
-  console.log("C is Greaterr")
-}
-                                // || OPERATOR(OR)
-if(a>b || a>c)
-{
-  console.log("A is Greater")
-}
-else if(b>c || b>a)
-{
-  console.log("B is Greater")
-}
-else{
-  console.log("C is Greater")
-}
+console.log(i)
