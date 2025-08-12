@@ -85,3 +85,29 @@
 // {
 //   cobnsole.log("The given number is Zero")
 // }
+
+                                  // && OPERATOR
+let a=10,b=14,c=12;
+if(a>b && a>c)
+{
+  console.log("A is Greater")
+}
+else if(b>c && b>a)
+{
+  console.log("B is Greater")
+}
+else{
+  console.log("C is Greaterr")
+}
+                                // || OPERATOR(OR)
+if(a>b || a>c)
+{
+  console.log("A is Greater")
+}
+else if(b>c || b>a)
+{
+  console.log("B is Greater")
+}
+else{
+  console.log("C is Greater")
+}
