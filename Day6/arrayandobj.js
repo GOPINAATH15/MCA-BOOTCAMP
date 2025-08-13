@@ -81,13 +81,53 @@ for(let j=0;j<arrobj.length;j++)
 // }
 
 
-let arr = [10,32,23,32,45,32,56,32];
-let search = 32;
-for(let i = 0 ; i<arr.length;i++)
-{
-  if(arr[i] == search)
-  {
-    a=i;
-  }
-}
-  console.log("The given number of the last index is "+a)
+// let arr = [10,32,23,32,45,32,56,32];
+// let search = 32;
+// for(let i = 0 ; i<arr.length;i++)
+// {
+//   if(arr[i] == search)
+//   {
+//     a=i;
+//   }
+// }
+//   console.log("The given number of the last index is "+a)
+
+  // print number from 1 to n
+// let n = 5;
+// let b=1;
+// for(let i =0;i<n;i++)
+// {
+//   console.log(b+i)
+// }
+
+// print all odd and even number up to n
+// let n =10;
+// let a=[];
+// for(var i=0;i<=n;i++)
+// {
+//   if(i%2==0)
+//   {
+//     console.log("EVEN NUMBER IS:" +i)
+//   }
+//   else if(i!=0)
+//   {
+//     console.log("ODD NUMBER IS:" +i)
+//   }
+//   }
+
+// print the multiplication of tables
+// let n=5;
+// let a = 10;
+// for(let i=0;i<=a;i++)
+// {
+//   console.log(i*n)
+// }
+
+// sum of the numbers from 1 to n
+// let n=5;
+// let a = 0;
+// for (let i=0;i<=n;i++)
+// {
+//   a+=i;
+// }
+//   console.log(a)
