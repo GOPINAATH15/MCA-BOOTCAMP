@@ -5,9 +5,29 @@ There are four types of methods are :
 3. Arrow Function
 4. CallBack Function
 */
-function printHello(mytext) {
-    console.log(mytext);
-}
-let text = "hello";
-printHello(text);
-printHello("Welcome");
+// function printHello(mytext) {
+//     console.log(mytext);
+// }
+// let text = "hello";
+// printHello(text);
+// printHello("Welcome");
+
+// function printText(text)
+// {
+//   console.log("The given text is :"+text)
+// }
+// //function call
+// let arr=["ClassRoom","CAR","BUS","CAB","BAT"];
+// for(let i=arr.length-1;i>=0;i--)
+// {
+//   printText(arr[i]);
+// }
+
+
+// let myNum = () => 
+// {
+//   console.log(10)
+// return 100 ;
+//   console.log(20)
+// }
+// console.log(myNum())    
