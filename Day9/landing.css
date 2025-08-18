@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body {
+    background-color: black;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    background: rgba(0, 0, 0, );
+}
+
+.header ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 20px;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    font-family: fantasy;
+    color: grey;
+    /* position: absolute; */
+}
+
+a:hover {
+    color: red;
+    font-size: 15px;
+    text-shadow: 8px 8px 16px black;
+}
+
+/* BACKGROUND IMAGE */
+#bgimage {
+    transition: 1s;
+    position: relative;
+    background: url(assets/Anime4.jpg)no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+/* MINI IMAGES INSIDE THE BACKGROUND IMAGE */
+.mini {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.mini .active{
+    opacity: 1;
+}
+
+.mini img {
+    opacity: 0.6;
+    border-radius: 10px;
+    height: 80px;
+    width: 125px;
+    /* transition: 0.3s; */
+}
+
+.mini img:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1.5);
+    transition: 1s;
+    opacity: 1;
+}
+
+/* ARROW INSIDE THE IMAGE */
+.arrow img {
+    cursor: pointer;
+    height: 30px;
+}
+
+.arrow #arrow1 {
+    position: absolute;
+    top: 50%;
+    transform: rotateY(180deg);
+}
+
+.arrow #arrow2 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.arrow #arrow1:hover {
+    height: 40px;
+    transition: 0.3s;
+
+}
+
+.arrow #arrow2:hover {
+    height: 40px;
+    transition: 0.3s;
+}
+
+/* CARDS */
+
+.container {
+    height: 80vh;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background-color: lightyellow;
+    margin-top: 10px;
+    height: 520px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px lightgrey;
+    transition: 0.5s;
+}
+
+.cards:hover {
+    box-shadow: 8px 8px 16px red;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.cards img {
+    height: 80%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards p {
+    text-align: center;
+    font-family: cursive;
+}
+
+.cards button {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 8px 8px 8px dimgray;
+}
+
+.cards button:hover {
+    background-color: green;
+}
+
+/* BOX */
+.boxx {
+    display: flex;
+    /* border: 2px solid whitesmoke; */
+    height: 100vh;
+}
+
+.boxximg {
+    width: 50%;
+}
+
+.boxximg img {
+    margin-top: 150px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.boxxsty {
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.boxxsty .btn1 {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: red;
+}
+
+.boxxsty .btn1:hover {
+    cursor: pointer;
+    background-color: grey;
+    transform: scale(1.1);
+}
+
+.boxxsty .btn2 {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 80px;
+    background-color: green;
+}
+
+.boxxsty .btn2:hover{
+    cursor: pointer;
+    background-color: grey;
+    transform: scale(1.1);
+
+}
+
+.boxxsty p {
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+/* footer */
+footer {
+    padding-top: 50px;
+    padding-left: 190px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.footer1 {
+    box-shadow: 8px 8px 16px grey;
+    padding-top: 40px;
+    padding-left: 50px;
+    height: 45vh;
+    width: 25%;
+    background-color: black;
+}
+
+.footer1 ul {
+    padding-top: 20px;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    color: grey;
+    list-style-type: none;
+    font-size: small;
+}
+
+.footer1 ul li {
+    padding-top: 20px;
+    transition: 0.5s;
+    color: rgb(123, 129, 129);
+}
+
+.footer {
+    display: flex;
+
+}
+
+.footer ul li:hover {
+    color: red;
+    font-size: 16px;
+}
