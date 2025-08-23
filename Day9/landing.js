@@ -7,6 +7,9 @@ const arr = ["./assets/Anime4.jpg","./assets/Anime1.jpg",
 
 const a = document.getElementsByClassName('image')
 
+
+
+
 let i =0;
 function img(){
     a[i].classList.remove('active');
@@ -32,5 +35,9 @@ let  change=(a)=>{
     con.style.background=`url('${arr[a]}')no-repeat center/cover`;
     
 }
+
+a[i].addEventListener("click",()=>{
+    
+})
 
 // setInterval(img,3000)
